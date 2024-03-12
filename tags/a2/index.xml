@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>a2 on 速冻饺子</title>
+    <link>/tags/a2/</link>
+    <description>Recent content in a2 on 速冻饺子</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 23 Jan 2024 10:45:13 +0800</lastBuildDate>
+    <atom:link href="/tags/a2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>11th</title>
+      <link>/posts/11/</link>
+      <pubDate>Tue, 23 Jan 2024 10:45:13 +0800</pubDate>
+      <guid>/posts/11/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
