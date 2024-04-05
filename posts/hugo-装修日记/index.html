@@ -3,15 +3,37 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
+<meta name="description" content="为什么我要写博客呢？ # 2023年在家躺了一年，感觉时间过得太快且没有任何事情被记录下来，从去年开始自己记忆力下降很快，常常下午就忘记了上午做了什么。脑袋经常性发木，持续时间还久。
+24年就开始想着写日记，无奈写在纸上本就难检索，外加长时间没有写过字，写出的字太过鬼画符了，遂想着上网找地方写日记。试过在Word上，如果不新建一个doc，单文件过大且自己需要个类似于Tyora类似的目录结构，遂放弃。
+在网上找了许久，找到个这位 「椒盐豆豉」 这样的book结构,对于前端代码真的一点不懂，好在自己高中时有捣鼓过点Chrome浏览器,遂通过F12键显示源文件，加ChatGPT帮助下，扒下来大概结构。
+Hugo 安装 # 大概结构是有了，无奈只能本地访问html文件且格式还无法显示，乱七八糟的，可能是扒站方式不对。倒是这个时候，利用ChatGPT得知了Hugo的大概建站过程，同时需要感谢 「椒盐豆豉又双叒叕一篇小白个人博客选什么工具或平台」中有 Hugo建站过程,很重要的是留下了为什么选择Hugo的原因，直接避免了我选择Wordpress。
+&lt;!DOCTYPE html&gt; @ 椒盐豆豉 ：建站不可能三角.jpg 安装基本参考了 「小绵尾巴」中的建站过程，当时遇见蛮多问题，后续通过面向ChatGPT，总算是能有html大概结构出来，但是一直出现一个问题本地打开 html，出现乱码，打开console中一堆爆红，本来都打算放弃了真的因为不知道去哪搞，仔细看看了也很绝望大概就是file:///xxxx/xxxxx.svfg类似这样的爆红，这个时候就要吐槽ChatGPT 3.5 了，就只能提示什么file:///这里应该为file://这样的错误，当时就怀疑是不是哪里扒站的时候多了个斜杠，用Vscod全局搜索了下，没找到三个斜杠地方。。。
+都开始试着用Notion来写日记了，无奈那个响应速度确实慢（可能是我主机不行，或者网络不太好。。
+后面试着先搞GitHub Pages,文件上传后居然正常显示了，查看了下本来错误的地方现在变成https://就这样变成两个杠，解决。
+工具有了，开始记录 # 这个时候看见了 「潮流周刊」这种样式，遂开始装修Hugo。诶，这个时候其实还没开始用Hugo记录，markdown文本格式才刚查过。但是无奈我引用的图片格式实在太丑，开始了解shortcode
+参考的教程 # Hugo | 在 Stack 主题上可行的短代码们 Hugo Shortcodes 示例 博客重启 2.0 尚缺功能 # 能督促自己有记录习惯，暂时还没这个功能，也不知道怎么弄。
+图片显示，写了三篇，图片显示全靠现查找
+shortcode，大概样式需要重建一下，这个其实我只需要pc端打开不要丑到我真的受不了就行。">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
-<meta name="color-scheme" content="light dark"><meta property="og:title" content="过年" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="/tags/%E8%BF%87%E5%B9%B4/" />
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="Hugo 装修日记（1）" />
+<meta property="og:description" content="为什么我要写博客呢？ # 2023年在家躺了一年，感觉时间过得太快且没有任何事情被记录下来，从去年开始自己记忆力下降很快，常常下午就忘记了上午做了什么。脑袋经常性发木，持续时间还久。
+24年就开始想着写日记，无奈写在纸上本就难检索，外加长时间没有写过字，写出的字太过鬼画符了，遂想着上网找地方写日记。试过在Word上，如果不新建一个doc，单文件过大且自己需要个类似于Tyora类似的目录结构，遂放弃。
+在网上找了许久，找到个这位 「椒盐豆豉」 这样的book结构,对于前端代码真的一点不懂，好在自己高中时有捣鼓过点Chrome浏览器,遂通过F12键显示源文件，加ChatGPT帮助下，扒下来大概结构。
+Hugo 安装 # 大概结构是有了，无奈只能本地访问html文件且格式还无法显示，乱七八糟的，可能是扒站方式不对。倒是这个时候，利用ChatGPT得知了Hugo的大概建站过程，同时需要感谢 「椒盐豆豉又双叒叕一篇小白个人博客选什么工具或平台」中有 Hugo建站过程,很重要的是留下了为什么选择Hugo的原因，直接避免了我选择Wordpress。
+&lt;!DOCTYPE html&gt; @ 椒盐豆豉 ：建站不可能三角.jpg 安装基本参考了 「小绵尾巴」中的建站过程，当时遇见蛮多问题，后续通过面向ChatGPT，总算是能有html大概结构出来，但是一直出现一个问题本地打开 html，出现乱码，打开console中一堆爆红，本来都打算放弃了真的因为不知道去哪搞，仔细看看了也很绝望大概就是file:///xxxx/xxxxx.svfg类似这样的爆红，这个时候就要吐槽ChatGPT 3.5 了，就只能提示什么file:///这里应该为file://这样的错误，当时就怀疑是不是哪里扒站的时候多了个斜杠，用Vscod全局搜索了下，没找到三个斜杠地方。。。
+都开始试着用Notion来写日记了，无奈那个响应速度确实慢（可能是我主机不行，或者网络不太好。。
+后面试着先搞GitHub Pages,文件上传后居然正常显示了，查看了下本来错误的地方现在变成https://就这样变成两个杠，解决。
+工具有了，开始记录 # 这个时候看见了 「潮流周刊」这种样式，遂开始装修Hugo。诶，这个时候其实还没开始用Hugo记录，markdown文本格式才刚查过。但是无奈我引用的图片格式实在太丑，开始了解shortcode
+参考的教程 # Hugo | 在 Stack 主题上可行的短代码们 Hugo Shortcodes 示例 博客重启 2.0 尚缺功能 # 能督促自己有记录习惯，暂时还没这个功能，也不知道怎么弄。
+图片显示，写了三篇，图片显示全靠现查找
+shortcode，大概样式需要重建一下，这个其实我只需要pc端打开不要丑到我真的受不了就行。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/hugo-%E8%A3%85%E4%BF%AE%E6%97%A5%E8%AE%B0/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-04-05T20:55:40+08:00" />
+<meta property="article:modified_time" content="2024-04-05T20:55:40+08:00" />
 
-<title>过年 | 速冻饺子</title>
+<title>Hugo 装修日记（1） | 速冻饺子</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" >
 <link rel="stylesheet" href="/book.min.33a48f5432973b8ff9a82679d9e45d67f2c15d4399bd2829269455cfe390b5e8.css" >
@@ -19,7 +41,6 @@
   <script defer src="/en.search.min.413c160dc462da74b740151f38642a79577626d8adc135c33667b8dbd9e54bdd.js" ></script>
 
   <script defer src="/sw.min.88f1afdaf4798d7d3520420dcfe201f928c3d371fdedfc3ae28cd9b6b79544f8.js" ></script>
-<link rel="alternate" type="application/rss+xml" href="/tags/%E8%BF%87%E5%B9%B4/index.xml" title="速冻饺子" />
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -117,7 +138,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>过年</strong>
+  <strong>Hugo 装修日记（1）</strong>
 
   <label for="toc-control">
     
@@ -130,84 +151,20 @@ https://github.com/alex-shpak/hugo-book
   
   <aside class="hidden clearfix">
     
-  <nav>
+  
+<nav id="TableOfContents">
   <ul>
-  
-    
-    <li class="book-section-flat">
-      <strong>Categories</strong>
+    <li><a href="#为什么我要写博客呢">为什么我要写博客呢？</a></li>
+    <li><a href="#hugo-安装">Hugo 安装</a></li>
+    <li><a href="#工具有了开始记录">工具有了，开始记录</a>
       <ul>
-      
-        <li class="flex justify-between">
-          <a href="/categories/2024/">2024</a>
-          <span>8</span>
-        </li>
-      
-        <li class="flex justify-between">
-          <a href="/categories/d1/">d1</a>
-          <span>1</span>
-        </li>
-      
+        <li><a href="#参考的教程">参考的教程</a></li>
       </ul>
     </li>
-    
-  
-    
-    <li class="book-section-flat">
-      <strong>Tags</strong>
-      <ul>
-      
-        <li class="flex justify-between">
-          <a href="/tags/daily/">daily</a>
-          <span>2</span>
-        </li>
-      
-        <li class="flex justify-between">
-          <a href="/tags/hugo/">Hugo</a>
-          <span>2</span>
-        </li>
-      
-        <li class="flex justify-between">
-          <a href="/tags/2024/">2024</a>
-          <span>3</span>
-        </li>
-      
-        <li class="flex justify-between">
-          <a href="/tags/%E5%91%A8%E5%88%8A/">周刊</a>
-          <span>4</span>
-        </li>
-      
-        <li class="flex justify-between">
-          <a href="/tags/%E8%BF%87%E5%B9%B4/">过年</a>
-          <span>2</span>
-        </li>
-      
-        <li class="flex justify-between">
-          <a href="/tags/%E6%97%A5%E8%AE%B0/">日记</a>
-          <span>1</span>
-        </li>
-      
-        <li class="flex justify-between">
-          <a href="/tags/a2/">a2</a>
-          <span>1</span>
-        </li>
-      
-        <li class="flex justify-between">
-          <a href="/tags/b3/">b3</a>
-          <span>1</span>
-        </li>
-      
-        <li class="flex justify-between">
-          <a href="/tags/c4/">c4</a>
-          <span>1</span>
-        </li>
-      
-      </ul>
-    </li>
-    
-  
+    <li><a href="#尚缺功能">尚缺功能</a></li>
   </ul>
 </nav>
+
 
 
   </aside>
@@ -217,53 +174,12 @@ https://github.com/alex-shpak/hugo-book
 
       
       
+<article class="markdown book-post">
+  <h1>
+    <a href="/posts/hugo-%E8%A3%85%E4%BF%AE%E6%97%A5%E8%AE%B0/">Hugo 装修日记（1）</a>
+  </h1>
   
-  <article class="markdown book-post">
-    <h2>
-      <a href="/posts/%E7%AC%AC2%E6%9C%9F-%E8%AF%A5%E4%BA%86%E4%B8%80%E5%91%A8/">第2期 该了一周</a>
-    </h2>
-    
-  <h5>February 23, 2024</h5>
-
-
-
-  
-  <div>
-    
-      <a href="/categories/2024/">2024</a>
-  </div>
-  
-
-  
-  <div>
-    
-      <a href="/tags/%E5%91%A8%E5%88%8A/">周刊</a>, 
-      <a href="/tags/%E8%BF%87%E5%B9%B4/">过年</a>, 
-      <a href="/tags/2024/">2024</a>
-  </div>
-  
-
-
-
-
-    <p>看剧名本来兴致冲冲的点进去了，看了两集遂弃，期待是像电影版那样紧张刺激中带点小幽默结果给我整了个文艺范十足的谍战。。。遂弃
-被封 # 闲鱼账号被封了，说是因为我发布领养狗那条信息的配图包含色情。。。就很难理解，文本信息是盐城当地是否有没有时间照顾的小狗我想领养一只。不知道是否被理解成了肾虚？？或者是某些LGBT元素？就被永封了。。。
-申诉 # 闲鱼的申诉机制类似于，系统管理员因为你这个帖子有某些敏感词锁着，他来判定是否需要处罚以及需要怎样的处罚，这个过程中你啥都不能做唯一可以操作的是可以删除自己的帖子
-看见自己帖子进了小黑屋，赶紧删除
-被锁后，有一次的申诉机会，认真回应（我就随便截了张最近聊天的图上传，就被ban了
-最后大招是联系闲鱼客服：9510222，找到人工态度强硬申诉（我态度强硬，说是联系专员了
-最后还是锁住了，那就只能重新换号了，本来想着去互联网法院起诉但是想着我的配图可能有点问题？不知道肾虚算不算色情？遂弃
-理财 # 2024年少碰大a，过年那几天看100日元对人民币汇率跌倒了4.9&ndash;4.8这个区间，比之前要少不少，遂兑换了五万人民币想着等日元升值再换回来。
-驾照 # 去报名参加了摩托车的考试，这个我没办法加速，要么可以选择去驾校报名800元 or 自费 135元走盐都车管所报名即可，窗口辅警建议学习一下挂档+坡道停车即可。
-    </p>
-  </article>
-  
-  <article class="markdown book-post">
-    <h2>
-      <a href="/posts/%E7%AC%AC1%E6%9C%9F-%E8%BF%87%E5%B9%B4%E8%AE%B0%E5%BF%86/">第1期 过年记忆</a>
-    </h2>
-    
-  <h5>February 14, 2024</h5>
+  <h5>April 5, 2024</h5>
 
 
 
@@ -277,30 +193,111 @@ https://github.com/alex-shpak/hugo-book
   
   <div>
     
-      <a href="/tags/%E5%91%A8%E5%88%8A/">周刊</a>, 
-      <a href="/tags/%E8%BF%87%E5%B9%B4/">过年</a>
+      <a href="/tags/hugo/">Hugo</a>, 
+      <a href="/tags/daily/">daily</a>
   </div>
   
 
 
 
+<h1 id="为什么我要写博客呢">
+  为什么我要写博客呢？
+  <a class="anchor" href="#%e4%b8%ba%e4%bb%80%e4%b9%88%e6%88%91%e8%a6%81%e5%86%99%e5%8d%9a%e5%ae%a2%e5%91%a2">#</a>
+</h1>
+<p>2023年在家躺了一年，感觉时间过得太快且没有任何事情被记录下来，从去年开始自己记忆力下降很快，常常下午就忘记了上午做了什么。脑袋经常性发木，持续时间还久。</p>
+<p>24年就开始想着写日记，无奈写在纸上本就难检索，外加长时间没有写过字，写出的字太过鬼画符了，遂想着上网找地方写日记。试过在Word上，如果不新建一个doc，单文件过大且自己需要个类似于Tyora类似的目录结构，遂放弃。</p>
+<p>在网上找了许久，找到个这位
+  <a href="[ht]%28https://blog.douchi.space/#gsc.tab=0%29">「椒盐豆豉」</a> 这样的<code>book</code>结构,对于前端代码真的一点不懂，好在自己高中时有捣鼓过点<strong>Chrome浏览器</strong>,遂通过F12键显示源文件，加ChatGPT帮助下，扒下来大概结构。</p>
+<h1 id="hugo-安装">
+  Hugo 安装
+  <a class="anchor" href="#hugo-%e5%ae%89%e8%a3%85">#</a>
+</h1>
+<p>大概结构是有了，无奈只能本地访问html文件且格式还无法显示，乱七八糟的，可能是扒站方式不对。倒是这个时候，利用ChatGPT得知了Hugo的大概建站过程，同时需要感谢
+  <a href="https://blog.douchi.space/tags/hugo/#gsc.tab=0">「椒盐豆豉又双叒叕一篇小白个人博客选什么工具或平台」</a>中有 Hugo建站过程,很重要的是留下了为什么选择Hugo的原因，直接避免了我选择Wordpress。</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        img {
+            max-width: 100%;
+            max-height: 20%;
+            display: block;
+        }
+        
+        figure.figurefx {
+            width: 100%;
+            height: 20%;
+            -o-object-fit: cover;
+            object-fit: cover;
+            transform: scale(0.8);
+            overflow: hidden;
+            margin: -40px auto;
+        }
 
-    <p>这张照片是今年为数不多下雪那天到窗口拍下。
-现在是下午七点，刚吃过饭坐在电脑前面想着来记录一下24年的春节，怕春节的记忆就这样滑走。初五的日子里外面都是鞭炮声我啥都想不起来，过年这段时间的记忆就真的快要没了。
-年前准备 # 剪头 # 在镇子上理发店里排队等着理发
-腊月二十八就停下来了，过年的习惯就是去剪个头、洗个澡、买新衣服、给老人送压岁钱。搬新家之后还没在这附近找到一家合适的理发店，想着等爹妈之后一起去张庄那里剪头顺便去把那里楼下车库给收拾一下，去楼道把车库去年小半年的用水用电来统计出来，把钱和楼上租客结清还有隔壁领居借钱后还有2k说是等过去给我现金，后面一直等到下雪那天还去把钱拿回来。就在镇子上找了家理发店和我爸一起去剪个头。
-大姑去世三年 # 大姑已经走了三年了，留代哥喊到了年前把事情做了喊了和尚来放焰口。
-好像对大姑的记忆真的很少，她比我爸大八岁这样就很早嫁出去离开了村子，嫁到了隔壁村子后大姑伯（方言：大古柏）很早就走了大姑又改嫁到县里，离我家很远平常也没怎么来看过年见面机会也不多，奶奶在的时候还可以约着一起去给奶奶送节礼。
-大姑走的时候也很老了，年纪才五十几岁但是整个头发都白了，听我爸讲解刨的时候发现大姑的肝脏也已经硬化了说是就算没被车撞到，回到家里也就只有一两年的命了。
-留代哥哥把大姑的死了的赔偿金立刻搬出来去城西南买了套房这样就可以给小侄女上学。
-暖冬 # 家里的茶花十月搬来的时候种在阳台，前几天看要开了 这个冬天有一波强降雪，外婆拿塑料薄膜来罩着青菜，奶奶种田的手艺真好
-体重 # 拍摄于 2024.2.14 体重巅峰，过年一直在吃同时因为游泳馆闭关一直没有训练
-过年结束了，需要尽快把体重给控制住，到了夏天不然又得去买衣服近几年都是一年换一次衣服，上年的衣服拿出来还是新的，不过已经穿不上了 = - =！
-    </p>
-  </article>
-  
+        figure.figurefx figcaption {
+            display: block;
+            box-sizing: border-box;
+            text-align: center;
+            font-family: "Montserrat";
+            width: 100%;
+            max-height: 20%;
+            left: 0;
+            color: #999;
+            font-size: 0.90rem;
+        }
 
-  
+        figure.figurefx figcaption a {
+            text-decoration: none;
+        }
+
+
+    </style>
+</head>
+<body>
+<figure class="figurefx">
+    <img src=[By%20%e6%a4%92%e7%9b%90%e8%b1%86%e8%b1%89]%28pictures/6c7e830c4e3c7f92.png%29>
+    <figcaption>@ 椒盐豆豉 ：建站不可能三角.jpg</figcaption>
+</figure>
+</body>
+</html>
+<p>安装基本参考了
+  <a href="https://cuttontail.blog/blog/create-a-wesite-using-github-pages-and-hugo/">「小绵尾巴」</a>中的建站过程，当时遇见蛮多问题，后续通过面向ChatGPT，总算是能有html大概结构出来，但是一直出现一个问题本地打开 html，出现乱码，打开console中一堆爆红，本来都打算放弃了真的因为不知道去哪搞，仔细看看了也很绝望大概就是<code>file:///xxxx/xxxxx.svfg</code>类似这样的爆红，这个时候就要吐槽ChatGPT 3.5 了，就只能提示什么<code>file:///</code>这里应该为<code>file://</code>这样的错误，当时就怀疑是不是哪里扒站的时候多了个斜杠，用Vscod全局搜索了下，没找到三个斜杠地方。。。</p>
+<p>都开始试着用Notion来写日记了，无奈那个响应速度确实慢（可能是我主机不行，或者网络不太好。。</p>
+<p>后面试着先搞GitHub Pages,文件上传后居然正常显示了，查看了下本来错误的地方现在变成<code>https://</code>就这样变成两个杠，解决。</p>
+<h1 id="工具有了开始记录">
+  工具有了，开始记录
+  <a class="anchor" href="#%e5%b7%a5%e5%85%b7%e6%9c%89%e4%ba%86%e5%bc%80%e5%a7%8b%e8%ae%b0%e5%bd%95">#</a>
+</h1>
+<p>这个时候看见了
+  <a href="https://weekly.tw93.fun/">「潮流周刊」</a>这种样式，遂开始装修Hugo。诶，这个时候其实还没开始用Hugo记录，markdown文本格式才刚查过。但是无奈我引用的图片格式实在太丑，开始了解<code>shortcode</code></p>
+<h2 id="参考的教程">
+  参考的教程
+  <a class="anchor" href="#%e5%8f%82%e8%80%83%e7%9a%84%e6%95%99%e7%a8%8b">#</a>
+</h2>
+<ul>
+<li>
+  <a href="https://www.sleepymoon.cyou/2023/hugo-shortcodes/">Hugo | 在 Stack 主题上可行的短代码们</a></li>
+<li>
+  <a href="https://blog.yandaojiang.com/posts/others/hugo_shortcodes%E7%A4%BA%E4%BE%8B/#%E5%9B%BE%E7%89%87">Hugo Shortcodes 示例</a></li>
+<li>
+  <a href="https://www.xianmin.org/post/2022/01-blog-restart/">博客重启 2.0</a></li>
+</ul>
+<h1 id="尚缺功能">
+  尚缺功能
+  <a class="anchor" href="#%e5%b0%9a%e7%bc%ba%e5%8a%9f%e8%83%bd">#</a>
+</h1>
+<ul>
+<li>
+<p>能督促自己有记录习惯，暂时还没这个功能，也不知道怎么弄。</p>
+</li>
+<li>
+<p>图片显示，写了三篇，图片显示全靠现查找</p>
+</li>
+<li>
+<p>shortcode，大概样式需要重建一下，这个其实我只需要pc端打开不要丑到我真的受不了就行。</p>
+</li>
+</ul>
+</article>
  
       
 
@@ -310,6 +307,13 @@ https://github.com/alex-shpak/hugo-book
 
 
 
+
+  <div>
+    <a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/edit/main/exampleSite/content/posts/Hugo%20%e8%a3%85%e4%bf%ae%e6%97%a5%e8%ae%b0.md" target="_blank" rel="noopener">
+      <img src="/svg/edit.svg" class="book-icon" alt="Edit" />
+      <span></span>
+    </a>
+  </div>
 
 
 </div>
@@ -324,6 +328,10 @@ https://github.com/alex-shpak/hugo-book
       </footer>
 
       
+  
+  <div class="book-comments">
+
+</div>
   
  
 
