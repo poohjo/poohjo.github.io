@@ -2,88 +2,82 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/categories/2024/</loc>
+    <loc>https://flaris.top/categories/2024/</loc>
     <lastmod>2024-04-07T14:58:38+08:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>https://flaris.top/categories/</loc>
     <lastmod>2024-04-07T14:58:38+08:00</lastmod>
   </url><url>
-    <loc>/tags/daily/</loc>
+    <loc>https://flaris.top/tags/daily/</loc>
     <lastmod>2024-04-07T14:58:38+08:00</lastmod>
   </url><url>
-    <loc>/posts/d%E8%AF%81%E4%B9%8B%E6%97%85/</loc>
+    <loc>https://flaris.top/posts/posts/D%E8%AF%81%E4%B9%8B%E6%97%85/</loc>
     <lastmod>2024-04-07T14:58:38+08:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>https://flaris.top/posts/</loc>
     <lastmod>2024-04-07T14:58:38+08:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://flaris.top/tags/</loc>
     <lastmod>2024-04-07T14:58:38+08:00</lastmod>
   </url><url>
-    <loc>/</loc>
+    <loc>https://flaris.top/tags/%E9%AA%91%E8%A1%8C/</loc>
     <lastmod>2024-04-07T14:58:38+08:00</lastmod>
   </url><url>
-    <loc>/tags/%E9%AA%91%E8%A1%8C/</loc>
-    <lastmod>2024-04-07T14:58:38+08:00</lastmod>
-  </url><url>
-    <loc>/posts/%E6%88%91%E7%9A%84%E7%94%9F%E6%B4%BB%E6%9D%82%E7%A2%8E%E8%AE%B0%E5%BD%95%E4%B9%8B%E6%97%85/</loc>
+    <loc>https://flaris.top/posts/posts/%E6%88%91%E7%9A%84%E7%94%9F%E6%B4%BB%E6%9D%82%E7%A2%8E%E8%AE%B0%E5%BD%95%E4%B9%8B%E6%97%85/</loc>
     <lastmod>2024-04-06T17:01:39+08:00</lastmod>
   </url><url>
-    <loc>/daily/</loc>
+    <loc>https://flaris.top/tags/Hugo/</loc>
     <lastmod>2024-04-05T20:55:40+08:00</lastmod>
   </url><url>
-    <loc>/tags/hugo/</loc>
+    <loc>https://flaris.top/posts/posts/Hugo-%E8%A3%85%E4%BF%AE%E6%97%A5%E8%AE%B0/</loc>
     <lastmod>2024-04-05T20:55:40+08:00</lastmod>
   </url><url>
-    <loc>/daily/hugo-%E8%A3%85%E4%BF%AE%E6%97%A5%E8%AE%B0/</loc>
-    <lastmod>2024-04-05T20:55:40+08:00</lastmod>
-  </url><url>
-    <loc>/posts/hugo-%E8%A3%85%E4%BF%AE%E6%97%A5%E8%AE%B0/</loc>
-    <lastmod>2024-04-05T20:55:40+08:00</lastmod>
-  </url><url>
-    <loc>/tags/2024/</loc>
+    <loc>https://flaris.top/tags/2024/</loc>
     <lastmod>2024-04-05T17:45:42+08:00</lastmod>
   </url><url>
-    <loc>/tags/%E5%91%A8%E5%88%8A/</loc>
+    <loc>https://flaris.top/tags/%E5%91%A8%E5%88%8A/</loc>
     <lastmod>2024-04-05T17:45:42+08:00</lastmod>
   </url><url>
-    <loc>/posts/%E7%AC%AC4%E6%9C%9F-%E6%97%A0%E5%BF%A7%E6%97%B6%E9%97%B4/</loc>
+    <loc>https://flaris.top/posts/posts/%E7%AC%AC4%E6%9C%9F-%E6%97%A0%E5%BF%A7%E6%97%B6%E9%97%B4/</loc>
     <lastmod>2024-04-05T17:45:42+08:00</lastmod>
   </url><url>
-    <loc>/posts/%E7%AC%AC3%E6%9C%9F-%E5%9B%9E%E6%9D%91%E6%99%92%E7%A8%BB/</loc>
+    <loc>https://flaris.top/posts/posts/%E7%AC%AC3%E6%9C%9F-%E5%9B%9E%E6%9D%91%E6%99%92%E7%A8%BB/</loc>
     <lastmod>2024-03-11T17:43:59+08:00</lastmod>
   </url><url>
-    <loc>/posts/%E7%AC%AC2%E6%9C%9F-%E8%AF%A5%E4%BA%86%E4%B8%80%E5%91%A8/</loc>
+    <loc>https://flaris.top/posts/posts/%E7%AC%AC2%E6%9C%9F-%E8%AF%A5%E4%BA%86%E4%B8%80%E5%91%A8/</loc>
     <lastmod>2024-02-23T22:53:59+08:00</lastmod>
   </url><url>
-    <loc>/tags/%E8%BF%87%E5%B9%B4/</loc>
+    <loc>https://flaris.top/tags/%E8%BF%87%E5%B9%B4/</loc>
     <lastmod>2024-02-23T22:53:59+08:00</lastmod>
   </url><url>
-    <loc>/posts/%E9%B9%BF%E5%B7%9D%E6%9C%89%E8%AE%B8%E5%A4%9A%E7%B2%AA/</loc>
+    <loc>https://flaris.top/posts/posts/%E9%B9%BF%E5%B7%9D%E6%9C%89%E8%AE%B8%E5%A4%9A%E7%B2%AA/</loc>
     <lastmod>2024-02-16T17:10:33+08:00</lastmod>
   </url><url>
-    <loc>/posts/%E7%AC%AC1%E6%9C%9F-%E8%BF%87%E5%B9%B4%E8%AE%B0%E5%BF%86/</loc>
+    <loc>https://flaris.top/posts/posts/%E7%AC%AC1%E6%9C%9F-%E8%BF%87%E5%B9%B4%E8%AE%B0%E5%BF%86/</loc>
     <lastmod>2024-02-14T18:52:52+08:00</lastmod>
   </url><url>
-    <loc>/posts/20240123/</loc>
+    <loc>https://flaris.top/posts/posts/20240123/</loc>
     <lastmod>2024-01-23T16:18:12+08:00</lastmod>
   </url><url>
-    <loc>/tags/%E6%97%A5%E8%AE%B0/</loc>
+    <loc>https://flaris.top/tags/%E6%97%A5%E8%AE%B0/</loc>
     <lastmod>2024-01-23T16:18:12+08:00</lastmod>
   </url><url>
-    <loc>/posts/11/</loc>
+    <loc>https://flaris.top/posts/posts/11/</loc>
     <lastmod>2024-01-23T10:45:13+08:00</lastmod>
   </url><url>
-    <loc>/tags/a2/</loc>
+    <loc>https://flaris.top/tags/a2/</loc>
     <lastmod>2024-01-23T10:45:13+08:00</lastmod>
   </url><url>
-    <loc>/tags/b3/</loc>
+    <loc>https://flaris.top/tags/b3/</loc>
     <lastmod>2024-01-23T10:45:13+08:00</lastmod>
   </url><url>
-    <loc>/tags/c4/</loc>
+    <loc>https://flaris.top/tags/c4/</loc>
     <lastmod>2024-01-23T10:45:13+08:00</lastmod>
   </url><url>
-    <loc>/categories/d1/</loc>
+    <loc>https://flaris.top/categories/d1/</loc>
     <lastmod>2024-01-23T10:45:13+08:00</lastmod>
+  </url><url>
+    <loc>https://flaris.top/</loc>
+    <lastmod>2024-04-08T09:11:07+08:00</lastmod>
   </url>
 </urlset>
